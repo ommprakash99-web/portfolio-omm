@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>project-page</title>
+</head>
+<body>
+  <style>
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      background-color: rgb(0, 0, 22);
+    }
+    .main-container{
+      flex-direction: row;
+      color: white;
+      text-align: center;
+    }
+     .navigation-bar {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 20rem;
+        padding: 20px;
+        border-bottom: white solid;
+        border-radius: 10px;
+      }
+      ul {
+        list-style: none;
+        display: flex;
+        gap: 5rem;
+        text-align: center;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        align-items: center;
+        font-size: larger;
+        transition: transform 0.3s ease;
+      }
+      a:hover {
+        color: orange;
+        border-radius: 2px;
+        transform: scale(1.1);
+      }
+    .heading{
+      letter-spacing: 20px;
+    }
+    .card-container{
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+      margin-top: 40px;
+      margin-left: 8.5rem;     
+    }
+  .card{
+    border: white solid;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    transition: transform 0.3s ease ;
+  }  
+  .card:hover{
+    transform: scale(1.1);
+    cursor:pointer
+  }
+  .button{
+    color: white;
+    margin-top:250px;
+    padding: 10px;
+    border: white;
+    background-color: red;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+  .button:hover{
+    cursor: pointer;
+    background-color: rgb(64, 1, 1);
+  }
+  #card-1{
+    background-image: url(https://i.pinimg.com/736x/8e/aa/2e/8eaa2ed80edb7835bba788633090a4a8.jpg);
+    background-size: cover;
+
+  }
+  #card-2{
+    background-image: url(https://i.pinimg.com/1200x/0b/f2/2d/0bf22d7c7701fda91a4b0a1b54f69350.jpg);
+    background-size: cover;
+  }
+  #card-3{
+    background-image: url(https://i.pinimg.com/736x/0f/f5/cd/0ff5cdbb3c3b8030faa2597b42988a51.jpg);
+    background-size: cover;
+  }
+  #card-4{
+    background-image: url(https://i.pinimg.com/736x/2c/22/a9/2c22a9abbb3a77d99885136904f69046.jpg);
+    background-size: cover;
+  }
+  #card-5{
+    background-image: url(https://i.pinimg.com/736x/c9/89/14/c98914acfd5a87bb85bcdc5fec1ce73d.jpg);
+    background-size: cover;
+  }
+  #card-6{
+    background-image: url(https://i.pinimg.com/736x/c2/ae/1c/c2ae1c52067830eead5ecfcad57f4759.jpg);
+    background-size: cover;
+  }
+  </style>
+  <section class="main-container">
+    <nav class="navigation-bar">
+        <div class="container">
+          <ul>
+            <a href="./index.html"><li>HOME</li></a>
+            <a href="./about.html"><li>ABOUT</li></a>
+            <a href="./skills.html"><li>SKILLS</li></a>
+            <a href="./project.html"><li>PROJECTS</li></a>
+            <a href="./contact.html"><li>CONTACT</li></a>
+          </ul>
+        </div>
+      </nav>
+    <div class="heading"><h1>PROJECTS</h1></div>
+    <div class="card-container">
+      <div id="card-1" class="card">
+        <h2></h2>
+        <a href="#"><button class="button">click here</button></a>
+      </div>
+      <div id="card-2" class="card">
+        <h2></h2>
+        <a href="#"><button class="button">click here</button></a>
+      </div>
+      <div id="card-3" class="card">
+        <h2></h2>
+        <a href="#"><button class="button">click here</button></a>
+      </div>
+      <div id="card-4" class="card">
+        <h2></h2>
+        <a href="#"><button class="button">click here</button></a>
+      </div>
+      <div id="card-5" class="card">
+        <h2></h2>
+        <a href="#"><button class="button">click here</button></a>
+      </div>
+      <div id="card-6" class="card">
+        <h2></h2>
+        <a href="#"><button class="button">click here</button></a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
