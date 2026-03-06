@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body{
+       background: rgb(0,0,28);
+    }
+    .testimonials{
+    padding: 80px 10%;
+    text-align: center;
+    color: white;
+}
+
+.testimonial-title{
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.testimonial-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.testimonial-card{
+    background: rgb(10,10,60);
+    padding: 25px;
+    width: 280px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.testimonial-card:hover{
+    transform: translateY(-8px);
+    background: rgb(20,20,90);
+}
+
+.testimonial-card p{
+    font-size: 15px;
+    line-height: 1.6;
+    color: #d0d0d0;
+}
+
+.testimonial-card h4{
+    margin-top: 15px;
+    font-weight: normal;
+    color: #ffffff;
+}
+.navigation-bar {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 20rem;
+        padding: 20px;
+        border-bottom: white solid;
+        border-radius: 10px;
+      }
+      ul {
+        list-style: none;
+        display: flex;
+        gap: 5rem;
+        text-align: center;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        align-items: center;
+        font-size: larger;
+        transition: transform 0.3s ease;
+      }
+      a:hover {
+        color: orange;
+        border-radius: 2px;
+        transform: scale(1.1);
+      }
+</style>
+<body>
+     <nav class="navigation-bar">
+        <div class="container">
+          <ul>
+            <a href="./index.html"><li>HOME</li></a>
+            <a href="./about.html"><li>ABOUT</li></a>
+            <a href="./skills.html"><li>SKILLS</li></a>
+            <a href="./project.html"><li>PROJECTS</li></a>
+            <a href="./testimonials.html"><li>TESTIMONIALS</li></a>
+            <a href="./contact.html"><li>CONTACT</li></a>
+          </ul>
+        </div>
+      </nav>
+    <section class="testimonials">
+
+<h2 class="testimonial-title">Testimonials</h2>
+
+<div class="testimonial-container">
+
+<div class="testimonial-card">
+<p>
+"omm prakash das created a very clean and responsive website.
+The design was modern and the code was well structured."
+</p>
+<h4>- Client 1</h4>
+</div>
+
+<div class="testimonial-card">
+<p>
+"Great experience working together. The HTML, CSS and JavaScript
+implementation was smooth and professional."
+</p>
+<h4>- Client 2</h4>
+</div>
+
+<div class="testimonial-card">
+<p>
+"Very dedicated developer with strong front-end skills.
+The final result exceeded expectations."
+</p>
+<h4>- Client 3</h4>
+</div>
+
+</div>
+
+</section>
+</body>
+</html>

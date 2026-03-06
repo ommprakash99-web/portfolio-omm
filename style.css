@@ -37,9 +37,7 @@ a:hover {
         color: orange;
         border-radius: 2px;
         transform: scale(1.2);
-      }
-
-
+}
 
 .container{
     align-items: center;
